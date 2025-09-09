@@ -1,0 +1,60 @@
+# Created automatically by the config module, but feel free to edit.
+#
+config.version = 1
+
+config.config.hermetic = true
+config.config.environment = CPATH CPLUS_INCLUDE_PATH CCC_OVERRIDE_OPTIONS LIBRARY_PATH LD_RUN_PATH COMPILER_PATH SDKROOT MACOSX_DEPLOYMENT_TARGET PATH=/Users/Shared/source/google-cloud-sdk/bin:/usr/local/opt/openssl/bin:/Users/brianshirai/.symbiont/versions/current/bin:/Users/brianshirai/.pyenv/shims:/usr/local/Cellar/pyenv-virtualenv/1.2.4/shims:/Users/brianshirai/.pyenv/shims:/Users/brianshirai/.cabal/bin:/Users/brianshirai/.ghcup/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/Users/brianshirai/.elan/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/Users/brianshirai/.cargo/bin:/Applications/iTerm.app/Contents/Resources/utilities:/Users/brianshirai/.local/bin:/Users/brianshirai/.local/bin:/Users/brianshirai/.cabal/bin DYLD_LIBRARY_PATH
+config.config.persist = 'config.import.*'@unused=save
+
+config.cc.poptions = [null]
+config.cc.coptions = [null]
+config.cc.loptions = [null]
+config.cc.aoptions = [null]
+config.cc.libs = [null]
+
+config.cxx = clang++
+config.cxx.poptions = [null]
+config.cxx.coptions = [null]
+config.cxx.loptions = [null]
+config.cxx.aoptions = [null]
+config.cxx.libs = [null]
+config.cxx.std = 20
+
+config.bin.lib = both
+config.bin.exe.lib = shared static
+config.bin.liba.lib = static shared
+config.bin.libs.lib = shared static
+config.bin.rpath = [null]
+config.bin.rpath_link = [null]
+#config.bin.ar =
+#config.bin.ranlib =
+
+config.install.relocatable = false
+config.install.private = [null]
+config.install.chroot = [null]
+config.install.filter = [null]
+config.install.cmd = install
+config.install.options = [null]
+config.install.mode = 644
+config.install.dir_mode = 755
+config.install.sudo = [null]
+config.install.root = /Users/brianshirai/.local/
+config.install.data_root = root/
+config.install.exec_root = root/
+config.install.exec_root.mode = 755
+config.install.sbin = exec_root/sbin/
+config.install.bin = exec_root/bin/
+config.install.lib = exec_root/lib/<private>/
+config.install.libexec = exec_root/libexec/<private>/<project>/
+config.install.pkgconfig = lib/pkgconfig/
+config.install.pkgconfig.mode = 644
+config.install.etc = data_root/etc/
+config.install.include = data_root/include/<private>/
+config.install.include_arch = include/
+config.install.share = data_root/share/
+config.install.data = share/<private>/<project>/
+config.install.buildfile = share/build2/export/<project>/
+config.install.doc = share/doc/<private>/<project>/
+config.install.legal = doc/
+config.install.man = share/man/
+config.install.man1 = man/man1/

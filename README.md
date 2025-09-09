@@ -1,4 +1,4 @@
-# Configurations for build2
+# Configurations for std-fhe using build2
 
 These are organization-wide configurations for the components and tools being
 built using the
